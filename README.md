@@ -4,15 +4,13 @@ The Weather Program is a simple command-line tool that provides weather informat
 
 This program is a great tool for individuals who want to quickly check the weather conditions for a specific location without the need for a complex or graphical weather application.
 
-Features
-Get current weather conditions for a specified location.
-View information such as temperature, humidity, wind speed, and weather description.
-Supports both metric and imperial units for temperature and wind speed.
-Easy-to-use command-line interface.
-Installation
-Clone the repository:
-
 shell
-Copy code
-git clone https://github.com/Adii0906/weather_program.git
-cd weather_program
+clone it:
+https://github.com/Adii0906/Wheather_programme.git
+cd Wheather_programme
+Install Dependencies:
+Make sure you have Python 3 installed. Then, install the required packages using pip:
+shell
+pip install -r requirements.txt
+python Wheather_programmey --location "City, Country"
+python Wheather_programme --location "New York, US"
